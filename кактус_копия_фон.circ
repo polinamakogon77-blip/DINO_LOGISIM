@@ -24676,6 +24676,7 @@ d6 1 d6 1
     <wire from="(230,1860)" to="(230,4170)"/>
     <wire from="(610,520)" to="(610,530)"/>
     <wire from="(160,1810)" to="(280,1810)"/>
+    <wire from="(1160,430)" to="(1160,460)"/>
     <wire from="(260,490)" to="(260,510)"/>
     <wire from="(160,1820)" to="(270,1820)"/>
     <wire from="(1380,7150)" to="(1380,8060)"/>
@@ -25323,7 +25324,7 @@ d6 1 d6 1
     </comp>
     <comp lib="0" loc="(870,400)" name="Constant">
       <a name="width" val="4"/>
-      <a name="value" val="0x2"/>
+      <a name="value" val="0x5"/>
     </comp>
     <comp lib="0" loc="(570,1110)" name="Tunnel">
       <a name="width" val="32"/>
@@ -25523,6 +25524,11 @@ d6 1 d6 1
     <comp lib="0" loc="(570,1170)" name="Tunnel">
       <a name="width" val="32"/>
       <a name="label" val="m2_c1"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(1160,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rest"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
     <comp lib="0" loc="(1210,140)" name="Clock"/>
